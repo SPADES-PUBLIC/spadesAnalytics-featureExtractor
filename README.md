@@ -91,11 +91,14 @@ Output File Name
 ----------------------------------------
 Typically the feature data file will be stored in the metadata directories and will include processed data that can be recomputed from the raw data. The structure of the filename is: 
 ```ShellSession
-[ALGORITHM].[AlgorithmID].[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[mmm]-[P/M][hhmm].csv.gz 
+ALGORITHM.[FEATURE NAME].[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[mmm]-[P/M][hhmm].csv.gz 
 ```
+Example: ALGORITHM.MetaData-FeatureExtractor-2015-09-10-17-56-59-082.2010-07-21-09-00-00-000-P0000.csv.gz
+
 * ALGORITHM: Prefix of the file name
 * [FEATURE NAME]: Feature name
   * Example: MetaData-FeatureExtractor-2015-10-29-10-50-21-021
+
 
 Output Content
 --------------
